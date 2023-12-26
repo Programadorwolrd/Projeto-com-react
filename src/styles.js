@@ -57,10 +57,13 @@ export const Button = styled.button`//aqui .div se identifica o tipo do componen
  margin-left:10px;
  color: white;
 
-
- 
+&:hover{
+  opacity: 0.8;//opacity é de 0 a 1 e aqui que se faz o hover 
+}
+&:active{//active é qunado ele é clicado
+  opacity: 0.4;//opacity é de 0 a 1 e aqui que se faz o hover   
+  }
 `;
-
 
 
 export const List = styled.ul`//aqui .div se identifica o tipo do componente
